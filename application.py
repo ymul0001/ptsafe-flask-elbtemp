@@ -8,7 +8,7 @@ from werkzeug.utils import secure_filename
 
 upload_folder = "static/container"
 
-app = Flask(__name__,
+application = app = Flask(__name__,
             template_folder = "../templates",
             static_folder = "../static")
 app.secret_key = "secret key"
